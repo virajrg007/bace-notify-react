@@ -10,12 +10,13 @@ import HomeContainer from "./components/Home/home-container";
 class App extends Component {
   render() {
     return (
-      <Router history={history}>
-        <div>
-          <Route exact path="/" component={LoginContainer} />
-          <Route exact path="/home" component={HomeContainer} />
-        </div>
-      </Router>
+      <div>App.js</div>
+      // <Router history={history}>
+      //   <div>
+      //     <Route exact path="/" component={LoginContainer} />
+      //     <Route exact path="/home" component={HomeContainer} />
+      //   </div>
+      // </Router>
     );
   }
 }
